@@ -1,0 +1,239 @@
+*{
+    margin: 0rem;
+    padding: 0rem;
+    box-sizing: border-box;
+    background-color: green;
+}
+.card{
+    position:absolute;
+}
+/* heart */
+#box1{
+    height: 16rem;
+    width: 15rem;
+    background-color: rgb(197, 196, 196);
+    top: 7rem;
+    left: 8rem;
+    z-index: -1;
+    border-radius: 1rem;
+    position: absolute;
+}
+#heart{
+    height: 0rem;
+    width: 0rem;
+    background-color: red;
+    border-top: 5.5rem solid red;
+    border-left: 5.5rem solid rgb(197, 196, 196);
+    border-right: 5.5rem solid rgb(197, 196, 196);
+    left: 10rem;
+    top: 15rem;
+}
+#heart::after{
+    content:"" ;
+    height:6.1rem;
+    width: 6.1rem;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    display: inline-block;
+    top: -9.9rem;
+    left: -0.32rem;
+}
+#heart::before{
+    content:"";
+    height: 6.1rem;
+    width: 6.1rem;
+    border-radius: 50%;
+    background-color: red;
+    position:absolute;
+    display: inline-block;
+    top: -9.9rem;
+    left: -5.75rem;
+}
+/* diamond */
+#diamond{
+    height: 0rem;
+    width: 0rem;
+    border-top: 5.5rem solid red;
+    border-left: 5.5rem solid rgb(197, 196, 196);
+    border-right:5.5rem solid rgb(197, 196, 196);
+    top: 15rem;
+    left: 28rem;
+}
+#diamond::before{
+    content: "";
+    height: 0rem;
+    width: 0rem;
+    border-bottom:5.5rem solid red;
+    border-left: 5.5rem solid transparent;
+    border-right: 5.5rem solid transparent;
+    position: absolute;
+    display: inline-block;
+    top: -11rem;
+    left: -5.5rem;
+}
+#box2{
+    height: 16rem;
+    width: 15rem;
+    background-color:rgb(197, 196, 196);
+    position: absolute;
+    top: 7rem;
+    left: 26rem;
+    border-radius: 1rem;
+    z-index: -1;
+}
+/* club */
+#club1{
+    height:6rem;
+    width:6rem;
+    background-color:black;
+    border-radius: 50%;
+    top: 30rem;
+    left: 12.2rem;
+}
+#club1::before{
+    content: "";
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-color:rgb(197, 196, 196);
+    position: absolute;
+    top: 5rem;
+    left: -4rem;
+    z-index: 1;
+}
+#club1::after{
+    content: "";
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-color: rgb(197, 196, 196);
+    position: absolute;
+    top: 5rem;
+    left: 3.5rem;
+    z-index: 1;
+}
+#club2{
+    height: 8rem;
+    width: 5rem;
+    background-color: black;
+    position: absolute;
+    top: 34rem;
+    left: 13rem;
+}
+#club2::before{
+    content: "";
+    height: 6rem;
+    width: 6rem;
+    border-radius: 50%;
+    background-color:black;
+    position: absolute; 
+    left: -3rem;
+    z-index: 1;
+}
+#club2::after{
+    content: "";
+    height: 6rem;
+    width: 6rem;
+    border-radius:50%;
+    background-color:black;
+    position: absolute;
+    left: 2rem;
+    top: rem;
+    z-index: 1;
+}
+#box3{
+    height: 16rem;
+    width: 15rem;
+    background-color: rgb(197, 196, 196);
+    top: 28rem;
+    left: 8rem;
+    z-index: -1;
+    border-radius: 1rem;
+    position: absolute;
+}
+/* spade */
+#spade1{
+    height:0rem;
+    width:0rem;
+    border-bottom: 6rem solid black;
+    border-left: 6rem solid rgb(197, 196, 196);
+    border-right: 6rem solid rgb(197, 196, 196);
+    top: 30rem;
+    left: 28rem;
+}
+#spade1::before{
+    content: "";
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background-color:rgb(197, 196, 196);
+    position: absolute;
+    top: 5.5rem;
+    left: 0.35rem;
+    z-index: 1;
+} 
+#spade1::after{
+    content: "";
+    height: 7rem;
+    width: 8rem;
+    border-radius: 50%;
+    background-color: rgb(197, 196, 196);
+    position: absolute;
+    top: 5.5rem;
+    left: -8.3rem;
+    z-index: 1;
+} 
+ #spade2{
+    height: 8rem;
+    width: 5rem;
+    background-color:black;
+    position: absolute;
+    top: 34rem;
+    left: 31.2rem;
+}
+#spade2::before{
+    content: "";
+    height: 6.3rem;
+    width: 6.3rem;
+    border-radius: 50%;
+    background-color:black;
+    position: absolute; 
+    left: -3.19rem;
+    z-index: 1;
+} 
+#spade2::after{
+    content: "";
+    height: 6.3rem;
+    width: 6.4rem;
+    border-radius:50%;
+    background-color:black;
+    position: absolute;
+    left: 2.61rem;
+    top: 0rem;
+    z-index: 1;
+} 
+#box4{
+    height: 16rem;
+    width: 15.6rem;
+    background-color: rgb(197, 196, 196);
+    top: 28rem;
+    left: 25.69rem;
+    z-index: -1;
+    border-radius: 1rem;
+    position: absolute;
+} 
+#main{
+    color: white;
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    left: 50rem;
+}
+#subtag{
+    color:white;
+    font-size: 2rem;
+    position: fixed;
+    left: 53rem;
+    top: 25rem;
+}
